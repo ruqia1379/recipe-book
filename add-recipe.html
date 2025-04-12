@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+</head>
+<body>
+   <nav>
+    <a href="index.html">Home</a>
+    <a href="add-recipe.html">Add Recipe</a>
+    <a href="recipe-list.html">Recipe List</a>
+   </nav> 
+   <h1>Add Your Recipe</h1>
+   <form>
+    <label for="name">Recipe Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="ingredient">Ingredients:</label><br>
+    <textarea id="ingredients" name="ingredients" required></textarea><br><br>
+
+    <label for="instructions">Cooking Instructions:</label><br>
+    <textarea id="instructions" name="instructions" required></textarea><br><br>
+
+    <label for="image">Image URL:</label>
+    <input type="url" id="'image" name="image"><br><br>
+
+    <label for="category">Category:</label>
+    <select id="category" name="category" required>
+      <option value="Desserts">Desserts</option>
+      <option value="Appetizers">Appetizers</option>
+      <option value="Quick Meals">Quick Meals</option>
+      <option value="Traditional">Traditional</option>
+    </select><br><br>
+
+
+    <button type="submit">Add Recipe</button>
+   </form>
+</body>
+</html>
